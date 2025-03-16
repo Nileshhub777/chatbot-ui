@@ -22,7 +22,7 @@
     COPY --from=build /app/next.config.js ./next.config.js
     COPY --from=build /app/next-i18next.config.js ./next-i18next.config.js
     
-    # Expose the port the app will run on
+    # Expose the port the app will run on.
     EXPOSE 3000
     
     # Start the application
